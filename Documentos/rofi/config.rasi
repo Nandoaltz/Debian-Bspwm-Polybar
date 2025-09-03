@@ -7,10 +7,10 @@ configuration {
 }
 
 * {
-    font: "Jetbrains Mono 12";
+    font: "Jetbrains Mono 11";
     foreground: #f8f8f2;
     background-color: #282a36;
-    active-background: #6272a4;
+    active-background: #ffa8fbff;
     urgent-background: #ff5555;
     urgent-foreground: #282a36;
     selected-background: @active-background;
@@ -23,7 +23,7 @@ configuration {
 #window {
     background-color: @background-color;
     border:           3;
-    border-radius:    6;
+    border-radius:    20;
     border-color:     @bordercolor;
     padding:          15;
 }
