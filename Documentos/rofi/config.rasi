@@ -26,7 +26,7 @@ configuration {
     border-radius:    15;
     border-color:     @bordercolor;
     padding:          15;
-    margin: 0px 100px;
+    width: 30%; 
 }
 #mainbox {
     border:  0;
