@@ -26,6 +26,7 @@ configuration {
     border-radius:    15;
     border-color:     @bordercolor;
     padding:          15;
+    margin: 0px 100px;
 }
 #mainbox {
     border:  0;
@@ -123,7 +124,7 @@ configuration {
 }
 #textbox-prompt-colon {
     expand:     false;
-    str:        "󰄛 ";
+    str:        " ";
     margin:     0px 0.3em 0em 0em ;
     text-color: @foreground;
 }
@@ -132,12 +133,11 @@ element-text, element-icon {
     text-color: inherit;
 }
 listview {
-    lines:      8;
+    lines:      5;
     columns:    1;
-
-    fixed-height:   false;
+    fixed-height:   true;
 }
 element-icon {
-    size: 2ch; /* Ou tente 24px, 32px, etc. */
+    size: 2.5ch; /* Ou tente 24px, 32px, etc. */
     margin: 0px 0.10em 0px 0px; /* opcional, para espaçamento ao lado do texto */
 }
