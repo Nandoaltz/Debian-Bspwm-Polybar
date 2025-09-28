@@ -23,7 +23,7 @@ configuration {
 #window {
     background-color: @background-color;
     border:           2;
-    border-radius:    20;
+    border-radius:    15;
     border-color:     @bordercolor;
     padding:          15;
 }
@@ -130,4 +130,14 @@ configuration {
 element-text, element-icon {
     background-color: inherit;
     text-color: inherit;
+}
+listview {
+    lines:      8;
+    columns:    1;
+
+    fixed-height:   false;
+}
+element-icon {
+    size: 2ch; /* Ou tente 24px, 32px, etc. */
+    margin: 0px 0.10em 0px 0px; /* opcional, para espaçamento ao lado do texto */
 }
